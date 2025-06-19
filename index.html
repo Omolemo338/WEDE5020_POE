@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Doughnut Loft">
+    <title>The Doughnut Loft</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet">
+
+    <script src="https//kit,fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7xj1z5l5e5e5e5e5e5e5e5e5e5e5e5e5" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+    <body>
+    <header>
+        <a href="#" class="logo">
+            <img src="logo1.png" width="150px" height="150px">
+        </a>
+
+        <ul class="navlist">
+           <li><a href="index.html" class="active">Home</a></li>
+           <li><a href="About Us.html" class="active">About Us</a></li>
+           <li><a href="Menu.html">Menu</a></li>
+           <li><a href="Services.html">Services</a></li>
+           <li><a href="Contact.html">Contact</a></li>
+        </ul>
+
+        <button class="cart-btn" id="open-cart">View Cart</button>
+
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Delicious Doughnuts</h1>
+            <p>Get your favourite doughnuts at your doorstep</p>
+            <div class="main-hero">
+                <a href="menu.html" class="btn">order now</a>
+                <a href="#" class="btn">
+                    <span>customize</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+ <div class="icons">
+    <a href="https://www.facebook.com/"><i class="ri-facebook-circle-fill"></i></a>
+    <a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a>
+    <a href="https://www.twitter.com/"><i class="ri-twitter-fill"></i></a>
+    <a href="https://www.youtube.com/"><i class="ri-youtube-fill"></i></a>
+ </div>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2025 The Doughnut Loft. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a> |
+            <a href="About Us.html">About Us</a> |
+            <a href="Menu.html">Menu</a> |
+            <a href="Contact.html">Contact</a>
+            <a href="Services.html">Services</a>
+        </div>
+    </div>
+</footer>
+
+<div id="cart" class="cart-section" style="display:none;">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: R0</p>
+    <button id="close-cart">Close</button>
+</div>
+
+</body>
+</html>
